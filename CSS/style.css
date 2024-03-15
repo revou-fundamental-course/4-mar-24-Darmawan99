@@ -1,0 +1,295 @@
+header>h1 {
+    text-align: center;
+}
+
+.container-item {
+    border: 0px;
+    width: 100%;
+    padding: 24px;
+}
+
+
+.container {
+    min-width: 250px;
+  } 
+
+box {
+    width: 500px;
+    background: #fafafa;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    padding: 0 30px;
+  }
+
+
+
+.result {
+  padding: 10px 20px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.result #result {
+  font-size: 36px;
+  font-weight: 900;
+  color: #038f6c;
+  background-color: #eaeaea;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
+
+#comment {
+    color: #049e84;
+    font-weight: 800;
+  }
+  
+  .comment {
+    display: none;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+    width: 50%;
+  }
+/*.container-form {
+    text-align: left;
+    background-color: aliceblue;
+    padding: 24px;
+}
+
+.container-form {
+    padding: 8px;
+} */
+
+.container-form>div {
+    padding: 8px;
+}
+
+.form-item {
+    height: 24px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.input {
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  .input label {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #919090;
+    width: 95%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .inputW {
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  .inputW label {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .inputW input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #919090;
+    width: 95%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .inputH {
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 50%;
+  }
+  
+  .inputH label {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .inputH input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #919090;
+    width: 95%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+
+button {
+    border: 0px;
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: lightgreen;
+    border-radius: 8px;
+}
+
+
+
+.input {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  /* Style for Radio */
+  .gender .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px; 
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .gender .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+/* Hide the browser's default radio button */
+.gender .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 20;
+    left: 5;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .gender .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .gender .container input:checked ~ .checkmark {
+    background-color: #038f6c;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .gender .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  button.calculate {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    background: rgb(1, 163, 36);
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 10px 0;
+    width: 50%;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+  }
+  button.calculate:hover {
+    background: #017933;
+  }
+
+
+  button.reset {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    background: rgb(1, 163, 36);
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 10px 0;
+    width: 50%;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+  }
+  button.calculate:hover {
+    background: #017933;
+  } 
